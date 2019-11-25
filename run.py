@@ -1,4 +1,5 @@
 # Imports from 3rd party libraries
+# Imports from 3rd party libraries
 import dash
 import dash_bootstrap_components as dbc
 import dash_core_components as dcc
@@ -19,7 +20,7 @@ navbar = dbc.NavbarSimple(
         dbc.NavItem(dcc.Link('Process', href='/process', className='nav-link')), 
     ],
     sticky='top',
-    color='light', 
+    color='success', 
     light=True, 
     dark=False
 )
@@ -35,7 +36,7 @@ footer = dbc.Container(
         dbc.Col(
             html.P(
                 [
-                    html.Span('Your Name', className='mr-2'), 
+                    html.Span('Mari Dominguez', className='mr-2'), 
                     html.A(html.I(className='fas fa-envelope-square mr-1'), href='mailto:<you>@<provider>.com'), 
                     html.A(html.I(className='fab fa-github-square mr-1'), href='https://github.com/<you>/<repo>'), 
                     html.A(html.I(className='fab fa-linkedin mr-1'), href='https://www.linkedin.com/in/<you>/'), 
