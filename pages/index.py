@@ -16,7 +16,7 @@ column1 = dbc.Col(
         dcc.Markdown(
             """
         
-            ## Your Value Proposition
+            ## Which Strain for your pain?
 
             Emphasize how the app will benefit users. Don't emphasize the underlying technology.
 
